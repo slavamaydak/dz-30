@@ -1,0 +1,69 @@
+.wrapper {
+  width: 100vw;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.team-content__pretitle {
+  font-family: "Kaushan Script";
+  text-align: center;
+  font-size: 23px;
+}
+
+.team-content__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 27px;
+  margin-bottom: 40px;
+}
+
+.team-content__line {
+  border-bottom: 5px solid salmon;
+  width: 100%;
+  max-width: 60px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.team-content__text {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: rgb(118, 118, 118);
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+.team-galery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-galery-block {
+  max-width: 400px;
+  margin: 15px;
+}
+
+.galery-block__foto {
+  max-width: 400px;
+  max-height: 440px;
+}
+
+.galery-block__title {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: rgb(31, 32, 32);
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.galery-block__pretitle {
+  font-family: "Roboto";
+  width: 100;
+  color: rgb(118, 118, 118);
+  text-align: center;
+}
